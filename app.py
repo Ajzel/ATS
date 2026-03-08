@@ -32,6 +32,48 @@ def set_bg(image_file):
 
 set_bg("background.png")  # change name if needed
 
+st.markdown("""
+<style>
+
+/* Make all text black */
+html, body, [class*="css"] {
+    color: black !important;
+}
+
+/* Labels */
+label {
+    color: black !important;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: black !important;
+}
+
+/* Text area */
+textarea {
+    color: black !important;
+}
+
+/* File uploader */
+span {
+    color: black !important;
+}
+
+/* Buttons */
+button {
+    color: black !important;
+    font-weight: bold;
+}
+
+/* Streamlit text */
+.stMarkdown, .stText, .stHeader {
+    color: black !important;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
