@@ -52,7 +52,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Text area */
 textarea {
-    color: black !important;
+    color: white !important;
+    background-color: rgba(30, 30, 30, 0.85) !important;
 }
 
 /* File uploader */
