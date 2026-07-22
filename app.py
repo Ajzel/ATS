@@ -30,7 +30,7 @@ def set_bg(image_file):
     """
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-set_bg("background.png")  # change name if needed
+set_bg("ATS logo 2.png")  # change name if needed
 
 st.markdown("""
 <style>
